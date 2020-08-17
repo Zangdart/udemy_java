@@ -15,10 +15,11 @@ public class BubbleSort {
 					swap(array, i, i + 1);
 				}
 			}
-			// print the sorted array
-			for (int i = 0; i < array.length; i++) {
-				System.out.println(array[i]);
-			}
+
+		}
+		// print the sorted array
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
 		}
 
 	} // main
